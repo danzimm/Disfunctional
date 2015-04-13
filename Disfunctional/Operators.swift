@@ -34,9 +34,12 @@ func <| <T, U>(f: T -> U, x: T) -> U {
   return f(x)
 }
 
-// unsure on precedence right meow
-infix operator <*> { associativity left precedence 90 }
-infix operator <~> { associativity left precedence 95 }
-infix operator <?> { associativity left precedence 95 }
+// Highest precedence, function application (applicatively even) comes first here
+infix operator <*> { associativity left precedence 160 }
+// Same precedence as &
+infix operator <~> { associativity left precedence 150 }
+// Same precedence as &&
+infix operator <?> { associativity left precedence 120 }
+// Lower precedence than most other operators so as to transform a function before calling it
 infix operator <| { associativity left precedence 100 }
 infix operator |> { associativity left precedence 100 }
