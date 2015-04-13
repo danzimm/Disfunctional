@@ -40,6 +40,6 @@ infix operator <*> { associativity left precedence 160 }
 infix operator <~> { associativity left precedence 150 }
 // Same precedence as &&
 infix operator <?> { associativity left precedence 120 }
-// Lower precedence than most other operators so as to transform a function before calling it
-infix operator <| { associativity left precedence 100 }
-infix operator |> { associativity left precedence 100 }
+// Higher precedence for fun partial application
+infix operator <| { associativity left precedence 160 }
+infix operator |> { associativity left precedence 160 }
