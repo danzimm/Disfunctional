@@ -7,12 +7,3 @@ public func flatten<T>(val: T??) -> T? {
     }
     return nil
 }
-
-public func ?? <T>(opt: T?, el: T) -> T {
-    if let opt_ = opt {
-        return opt_
-    }
-    return el
-}
-
-infix operator ?? { associativity left precedence 100 }
