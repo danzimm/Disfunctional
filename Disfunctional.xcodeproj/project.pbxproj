@@ -10,6 +10,13 @@
 		01931D161ADC546400272C5C /* Disfunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 01931D151ADC546400272C5C /* Disfunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01931D1C1ADC546400272C5C /* Disfunctional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01931D101ADC546400272C5C /* Disfunctional.framework */; };
 		01931D231ADC546400272C5C /* DisfunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D221ADC546400272C5C /* DisfunctionalTests.swift */; };
+		01931D331ADC548200272C5C /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D2C1ADC548200272C5C /* Curry.swift */; };
+		01931D341ADC548200272C5C /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D2D1ADC548200272C5C /* Operators.swift */; };
+		01931D351ADC548200272C5C /* Symmetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D2E1ADC548200272C5C /* Symmetry.swift */; };
+		01931D361ADC548200272C5C /* Disfunctional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D2F1ADC548200272C5C /* Disfunctional.swift */; };
+		01931D371ADC548200272C5C /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D301ADC548200272C5C /* Optional.swift */; };
+		01931D381ADC548200272C5C /* ValueTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D311ADC548200272C5C /* ValueTypes.swift */; };
+		01931D391ADC548200272C5C /* ElectricNGas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D321ADC548200272C5C /* ElectricNGas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +36,13 @@
 		01931D1B1ADC546400272C5C /* DisfunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisfunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01931D211ADC546400272C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01931D221ADC546400272C5C /* DisfunctionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisfunctionalTests.swift; sourceTree = "<group>"; };
+		01931D2C1ADC548200272C5C /* Curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		01931D2D1ADC548200272C5C /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		01931D2E1ADC548200272C5C /* Symmetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Symmetry.swift; sourceTree = "<group>"; };
+		01931D2F1ADC548200272C5C /* Disfunctional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disfunctional.swift; sourceTree = "<group>"; };
+		01931D301ADC548200272C5C /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		01931D311ADC548200272C5C /* ValueTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueTypes.swift; sourceTree = "<group>"; };
+		01931D321ADC548200272C5C /* ElectricNGas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricNGas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				01931D151ADC546400272C5C /* Disfunctional.h */,
+				01931D2C1ADC548200272C5C /* Curry.swift */,
+				01931D2D1ADC548200272C5C /* Operators.swift */,
+				01931D2E1ADC548200272C5C /* Symmetry.swift */,
+				01931D2F1ADC548200272C5C /* Disfunctional.swift */,
+				01931D301ADC548200272C5C /* Optional.swift */,
+				01931D311ADC548200272C5C /* ValueTypes.swift */,
+				01931D321ADC548200272C5C /* ElectricNGas.swift */,
 				01931D131ADC546400272C5C /* Supporting Files */,
 			);
 			path = Disfunctional;
@@ -209,6 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01931D391ADC548200272C5C /* ElectricNGas.swift in Sources */,
+				01931D331ADC548200272C5C /* Curry.swift in Sources */,
+				01931D381ADC548200272C5C /* ValueTypes.swift in Sources */,
+				01931D371ADC548200272C5C /* Optional.swift in Sources */,
+				01931D361ADC548200272C5C /* Disfunctional.swift in Sources */,
+				01931D351ADC548200272C5C /* Symmetry.swift in Sources */,
+				01931D341ADC548200272C5C /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +346,7 @@
 		01931D271ADC546400272C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -329,12 +358,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		01931D281ADC546400272C5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
