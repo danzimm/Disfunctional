@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01931D161ADC546400272C5C /* Disfunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 01931D151ADC546400272C5C /* Disfunctional.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01931D1C1ADC546400272C5C /* Disfunctional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01931D101ADC546400272C5C /* Disfunctional.framework */; };
+		01931D231ADC546400272C5C /* DisfunctionalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01931D221ADC546400272C5C /* DisfunctionalTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01931D1D1ADC546400272C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01931D071ADC546400272C5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01931D0F1ADC546400272C5C;
+			remoteInfo = Disfunctional;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01931D101ADC546400272C5C /* Disfunctional.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Disfunctional.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01931D141ADC546400272C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01931D151ADC546400272C5C /* Disfunctional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Disfunctional.h; sourceTree = "<group>"; };
+		01931D1B1ADC546400272C5C /* DisfunctionalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisfunctionalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01931D211ADC546400272C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01931D221ADC546400272C5C /* DisfunctionalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisfunctionalTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01931D0C1ADC546400272C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01931D181ADC546400272C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01931D1C1ADC546400272C5C /* Disfunctional.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01931D061ADC546400272C5C = {
+			isa = PBXGroup;
+			children = (
+				01931D121ADC546400272C5C /* Disfunctional */,
+				01931D1F1ADC546400272C5C /* DisfunctionalTests */,
+				01931D111ADC546400272C5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01931D111ADC546400272C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01931D101ADC546400272C5C /* Disfunctional.framework */,
+				01931D1B1ADC546400272C5C /* DisfunctionalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01931D121ADC546400272C5C /* Disfunctional */ = {
+			isa = PBXGroup;
+			children = (
+				01931D151ADC546400272C5C /* Disfunctional.h */,
+				01931D131ADC546400272C5C /* Supporting Files */,
+			);
+			path = Disfunctional;
+			sourceTree = "<group>";
+		};
+		01931D131ADC546400272C5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01931D141ADC546400272C5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01931D1F1ADC546400272C5C /* DisfunctionalTests */ = {
+			isa = PBXGroup;
+			children = (
+				01931D221ADC546400272C5C /* DisfunctionalTests.swift */,
+				01931D201ADC546400272C5C /* Supporting Files */,
+			);
+			path = DisfunctionalTests;
+			sourceTree = "<group>";
+		};
+		01931D201ADC546400272C5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01931D211ADC546400272C5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01931D0D1ADC546400272C5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01931D161ADC546400272C5C /* Disfunctional.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01931D0F1ADC546400272C5C /* Disfunctional */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01931D261ADC546400272C5C /* Build configuration list for PBXNativeTarget "Disfunctional" */;
+			buildPhases = (
+				01931D0B1ADC546400272C5C /* Sources */,
+				01931D0C1ADC546400272C5C /* Frameworks */,
+				01931D0D1ADC546400272C5C /* Headers */,
+				01931D0E1ADC546400272C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Disfunctional;
+			productName = Disfunctional;
+			productReference = 01931D101ADC546400272C5C /* Disfunctional.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01931D1A1ADC546400272C5C /* DisfunctionalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01931D291ADC546400272C5C /* Build configuration list for PBXNativeTarget "DisfunctionalTests" */;
+			buildPhases = (
+				01931D171ADC546400272C5C /* Sources */,
+				01931D181ADC546400272C5C /* Frameworks */,
+				01931D191ADC546400272C5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01931D1E1ADC546400272C5C /* PBXTargetDependency */,
+			);
+			name = DisfunctionalTests;
+			productName = DisfunctionalTests;
+			productReference = 01931D1B1ADC546400272C5C /* DisfunctionalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01931D071ADC546400272C5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Dan Zimmerman";
+				TargetAttributes = {
+					01931D0F1ADC546400272C5C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					01931D1A1ADC546400272C5C = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 01931D0A1ADC546400272C5C /* Build configuration list for PBXProject "Disfunctional" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01931D061ADC546400272C5C;
+			productRefGroup = 01931D111ADC546400272C5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01931D0F1ADC546400272C5C /* Disfunctional */,
+				01931D1A1ADC546400272C5C /* DisfunctionalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01931D0E1ADC546400272C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01931D191ADC546400272C5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01931D0B1ADC546400272C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01931D171ADC546400272C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01931D231ADC546400272C5C /* DisfunctionalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01931D1E1ADC546400272C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01931D0F1ADC546400272C5C /* Disfunctional */;
+			targetProxy = 01931D1D1ADC546400272C5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01931D241ADC546400272C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		01931D251ADC546400272C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01931D271ADC546400272C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Disfunctional/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01931D281ADC546400272C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Disfunctional/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		01931D2A1ADC546400272C5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DisfunctionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01931D2B1ADC546400272C5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DisfunctionalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01931D0A1ADC546400272C5C /* Build configuration list for PBXProject "Disfunctional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01931D241ADC546400272C5C /* Debug */,
+				01931D251ADC546400272C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01931D261ADC546400272C5C /* Build configuration list for PBXNativeTarget "Disfunctional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01931D271ADC546400272C5C /* Debug */,
+				01931D281ADC546400272C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01931D291ADC546400272C5C /* Build configuration list for PBXNativeTarget "DisfunctionalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01931D2A1ADC546400272C5C /* Debug */,
+				01931D2B1ADC546400272C5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01931D071ADC546400272C5C /* Project object */;
+}
