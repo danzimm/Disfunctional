@@ -10,3 +10,13 @@ public struct Box<T> {
     value = val
   }
 }
+
+public struct Weak<T: AnyObject> {
+  weak var value: T?
+  init(_ val: T) {
+    value = val
+  }
+  func valid() -> Bool {
+    return value != nil
+  }
+}

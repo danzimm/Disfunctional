@@ -431,6 +431,7 @@
 				01931D281ADC546400272C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01931D291ADC546400272C5C /* Build configuration list for PBXNativeTarget "DisfunctionalTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +440,7 @@
 				01931D2B1ADC546400272C5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
